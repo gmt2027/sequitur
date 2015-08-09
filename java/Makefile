@@ -1,9 +1,9 @@
-PROGRAM = sequitur
+PROGRAM = Sequitur
 
 JAVA = javac -O
 
-SOURCES = symbol.java guard.java terminal.java nonTerminal.java \
-	  rule.java sequitur.java
+SOURCES = Symbol.java Guard.java Terminal.java NonTerminal.java \
+	  Rule.java Sequitur.java
 
 CLASSFILES = $(SOURCES:.java=.class)
 
